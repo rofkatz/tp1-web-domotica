@@ -1,0 +1,27 @@
+.questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-card{
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 50px 30px;
+    padding: 15px;
+    box-shadow: 8px 15px 20px grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.question-card div span {
+    font-weight: bold;
+}
+
+.question-card-icon{
+    font-size: 4rem;
+}

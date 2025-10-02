@@ -1,0 +1,17 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.service-img {
+    object-fit: cover;
+}
+
+.service-image-title {
+    text-shadow: 5px 8px 3px rgba(0, 0, 0, 0.5);
+    font-size: 4rem;
+    margin-bottom: 150px;
+}
